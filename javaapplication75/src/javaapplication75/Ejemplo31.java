@@ -71,11 +71,10 @@ public class Ejemplo31 {
             }
         }
         
-        
-        System.out.println("\nResultados\n");
+        System.out.printf("\nNotas Ingresadas\nRangos\n");
         
         for(int j = 0; j < datos.length; j++){
-            System.out.printf("Notas de %s = %d\n", rangos[j], datos[j]);
+            System.out.printf("%s = %d\n", rangos[j], datos[j]);
         }
         
 
