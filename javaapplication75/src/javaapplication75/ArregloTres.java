@@ -5,9 +5,11 @@
  */
 package javaapplication75;
 
+import java.util.Scanner;
+
 /**
  *
- * @author reroes
+ * @author drmorales4
  */
 public class ArregloTres {
 

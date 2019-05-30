@@ -5,24 +5,20 @@
  */
 package javaapplication75;
 
+import java.util.Random;
+import java.util.Scanner;
+
 /**
  *
  * @author drmorales4
  */
-public class ArregloDos {
-
-    /**
-     * @param args the command line arguments
-     */
+public class DemoRandomico {
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        Random aleatorios = new Random(4);
         
-        int[] c; // declaramos la variable
-        c = new int[12];
-        
-        String[] b = new String[100];
-        String[] x = new String[10];
-        
+        int v = aleatorios.nextInt();
+        System.out.printf("%d\n", v);
         
     }
     

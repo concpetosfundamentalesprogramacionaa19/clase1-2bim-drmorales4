@@ -7,7 +7,7 @@ package javaapplication75;
 
 /**
  *
- * @author reroes
+ * @author drmorales4
  */
 public class ArregloCinco {
 
@@ -18,11 +18,15 @@ public class ArregloCinco {
         // TODO code application logic here
 
         int[] c = {10, 20, 30, 40}; // declaramos la variable
-      
-        System.out.printf("%s\t\t%s\n", "Indice", "Valor");
+        // length 4
+        double operacion;
+        
+        System.out.printf("%s\t\t%s\t\t%s\n", "Indice", "Valor", "Resultado");
 
         for (int contador = 0; contador < c.length; contador++) {
-            System.out.printf("%d\t\t%d\n", contador, c[contador]);
+            operacion = Math.pow(c[contador] , 2);
+            
+            System.out.printf("%d\t\t%d\t\t%.1f\n", contador, c[contador], operacion);
         }
     }
 
